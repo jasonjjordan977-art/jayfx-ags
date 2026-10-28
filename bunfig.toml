@@ -1,0 +1,3 @@
+[install]
+# A single native module installation avoids Bun peer-context duplicates in Expo.
+linker = "hoisted"
